@@ -206,11 +206,11 @@
             "texto": "Empezar gratis",
             "enlace": "#contacto"
           },
-          "precio": "0 €",
+          "precio": "$699",
           "destacado": false,
           "nombre": "Básico",
           "descripcion": "Para probar el producto sin compromiso.",
-          "periodo": "",
+          "periodo": "MXN",
           "incluye": [
             "1 proyecto",
             "Funciones esenciales",
@@ -224,11 +224,11 @@
             "texto": "Elegir Pro",
             "enlace": "#contacto"
           },
-          "precio": "24 €",
+          "precio": "$899",
           "destacado": true,
           "nombre": "Pro",
           "descripcion": "Para equipos pequeños que ya están creciendo.",
-          "periodo": "/ usuario · mes",
+          "periodo": "MXN",
           "incluye": [
             "Proyectos ilimitados",
             "Todas las funciones",
@@ -243,11 +243,11 @@
             "texto": "Contactar ventas",
             "enlace": "#contacto"
           },
-          "precio": "A medida",
+          "precio": "$2.5K",
           "destacado": false,
           "nombre": "Empresa",
           "descripcion": "Para organizaciones con necesidades a medida.",
-          "periodo": "",
+          "periodo": "MXN",
           "incluye": [
             "Todo lo de Pro",
             "SSO y permisos",
