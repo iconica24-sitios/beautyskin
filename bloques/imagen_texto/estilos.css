@@ -5,6 +5,18 @@
 .imagen-texto--derecha .imagen-texto__fila { flex-direction: row-reverse; }
 .imagen-texto__imagen { position: relative; flex-shrink: 0; width: 0; overflow: hidden; }
 .imagen-texto__imagen img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* La foto se dibuja al doble del ancho de su columna, anclada al lado del texto: su eje central
+   cae justo en el borde de la pantalla y se ve la mitad que mira hacia el texto. Con cover
+   llena el recuadro en los dos ejes.
+   Altura de referencia: la caja de la foto mide al menos --alto-foto (centrada a lo alto; lo que
+   sobra se recorta), así la foto sale del mismo tamaño en todos los bloques de hasta esa altura,
+   tengan más o menos texto. Sólo un bloque más alto agranda su foto. */
+.imagen-texto { --alto-foto: 800px; }
+.imagen-texto__imagen img {
+  top: 50%; bottom: auto; right: 0; left: auto; transform: translateY(-50%);
+  width: 200%; max-width: none; height: 100%; height: max(100%, var(--alto-foto));
+}
+.imagen-texto--derecha .imagen-texto__imagen img { right: auto; left: 0; }
 .imagen-texto__cuerpo { flex: 1; min-width: 0; padding: 112px 32px; }
 @media (min-width: 768px) {
   .imagen-texto__imagen { width: 50%; }
