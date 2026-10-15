@@ -6,7 +6,7 @@
   "bloques": [
     {
       "tipo": "portada_2",
-      "imagen": "/imagenes/gemini-2.5-flash-image_medium_shot_of_a_new_different_young_woman_with_her_hair_pulled_back_receiving_a-0.jpg",
+      "imagen": "/imagenes/chicaguapa_1.webp",
       "imagen_alt": "Tratamiento facial con equipo dermatológico",
       "titulo": "Tecnología al servicio de tu belleza.",
       "boton": {
@@ -138,7 +138,7 @@
       ],
       "ancla": "producto",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
       "titulo": "Explica el flujo principal en una frase.",
       "imagen_derecha": false,
@@ -154,7 +154,7 @@
       ],
       "ancla": "",
       "descripcion": "",
-      "imagen": "",
+      "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
       "titulo": "Explica el flujo principal en una frase.",
       "imagen_derecha": true,
