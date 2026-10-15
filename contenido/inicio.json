@@ -131,12 +131,19 @@
     {
       "rotulo": "Cómo funciona",
       "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
+      "boton": {
+        "texto": "Agenda tu Cita",
+        "enlace": ""
+      },
       "pasos": [
         "Primer paso del proceso",
         "Segundo paso del proceso",
         "Resultado final"
       ],
       "ancla": "producto",
+      "boton2": {
+        "texto": "Más Información"
+      },
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
