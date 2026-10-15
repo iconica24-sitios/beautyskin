@@ -20,6 +20,75 @@
       "ancla": ""
     },
     {
+      "elementos": [
+        {
+          "icono": "speed",
+          "titulo": "Rápido desde el primer día",
+          "texto": "Configúralo en minutos y empieza a ver resultados sin curva de aprendizaje.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "icono": "lock",
+          "titulo": "Seguro por diseño",
+          "texto": "Tus datos viajan cifrados y sólo los ve quien tú decides.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "icono": "sync",
+          "titulo": "Siempre sincronizado",
+          "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "icono": "insights",
+          "titulo": "Decisiones con datos",
+          "texto": "Reportes claros para saber qué funciona y qué ajustar.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "icono": "support_agent",
+          "titulo": "Soporte humano",
+          "texto": "Personas reales que responden en tu idioma y en horario hábil.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "icono": "tune",
+          "titulo": "A tu medida",
+          "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        }
+      ],
+      "rotulo": "Ventajas",
+      "texto": "Resume en una o dos líneas lo que tienen en común estas ventajas.",
+      "boton": {
+        "texto": "Empezar ahora",
+        "enlace": "#contacto"
+      },
+      "oculto": false,
+      "ancla": "",
+      "tipo": "iconos",
+      "titulo": "Todo lo que necesitas, en un solo lugar",
+      "fondo_suave": false
+    },
+    {
       "tipo": "funciones",
       "rotulo": "Funciones",
       "titulo": "Todo lo que necesitas, nada que sobre.",
@@ -60,36 +129,36 @@
       "ancla": ""
     },
     {
-      "tipo": "imagen_texto",
-      "imagen": "",
-      "descripcion": "",
-      "imagen_derecha": false,
-      "fondo_suave": true,
       "rotulo": "Cómo funciona",
-      "titulo": "Explica el flujo principal en una frase.",
       "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
       "pasos": [
         "Primer paso del proceso",
         "Segundo paso del proceso",
         "Resultado final"
       ],
-      "ancla": "producto"
+      "ancla": "producto",
+      "descripcion": "",
+      "imagen": "",
+      "tipo": "imagen_texto",
+      "titulo": "Explica el flujo principal en una frase.",
+      "imagen_derecha": false,
+      "fondo_suave": true
     },
     {
-      "tipo": "imagen_texto",
-      "imagen": "",
-      "descripcion": "",
-      "imagen_derecha": true,
-      "fondo_suave": false,
       "rotulo": "Cómo funciona",
-      "titulo": "Explica el flujo principal en una frase.",
       "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
       "pasos": [
         "Primer paso del proceso",
         "Segundo paso del proceso",
         "Resultado final"
       ],
-      "ancla": ""
+      "ancla": "",
+      "descripcion": "",
+      "imagen": "",
+      "tipo": "imagen_texto",
+      "titulo": "Explica el flujo principal en una frase.",
+      "imagen_derecha": true,
+      "fondo_suave": false
     },
     {
       "tipo": "testimonios",
@@ -126,59 +195,59 @@
       "etiqueta_anual": "Anual −20%",
       "planes": [
         {
-          "nombre": "Básico",
-          "destacado": false,
-          "insignia": "",
+          "boton": {
+            "texto": "Empezar gratis",
+            "enlace": "#contacto"
+          },
           "precio": "0 €",
-          "precio_anual": "",
-          "periodo": "",
+          "destacado": false,
+          "nombre": "Básico",
           "descripcion": "Para probar el producto sin compromiso.",
+          "periodo": "",
           "incluye": [
             "1 proyecto",
             "Funciones esenciales",
             "Soporte por correo"
           ],
-          "boton": {
-            "texto": "Empezar gratis",
-            "enlace": "#contacto"
-          }
+          "insignia": "",
+          "precio_anual": ""
         },
         {
-          "nombre": "Pro",
-          "destacado": true,
-          "insignia": "Popular",
+          "boton": {
+            "texto": "Elegir Pro",
+            "enlace": "#contacto"
+          },
           "precio": "24 €",
-          "precio_anual": "19 €",
-          "periodo": "/ usuario · mes",
+          "destacado": true,
+          "nombre": "Pro",
           "descripcion": "Para equipos pequeños que ya están creciendo.",
+          "periodo": "/ usuario · mes",
           "incluye": [
             "Proyectos ilimitados",
             "Todas las funciones",
             "Integraciones",
             "Soporte prioritario"
           ],
-          "boton": {
-            "texto": "Elegir Pro",
-            "enlace": "#contacto"
-          }
+          "insignia": "Popular",
+          "precio_anual": "19 €"
         },
         {
-          "nombre": "Empresa",
-          "destacado": false,
-          "insignia": "",
+          "boton": {
+            "texto": "Contactar ventas",
+            "enlace": "#contacto"
+          },
           "precio": "A medida",
-          "precio_anual": "",
-          "periodo": "",
+          "destacado": false,
+          "nombre": "Empresa",
           "descripcion": "Para organizaciones con necesidades a medida.",
+          "periodo": "",
           "incluye": [
             "Todo lo de Pro",
             "SSO y permisos",
             "Acuerdo de nivel de servicio"
           ],
-          "boton": {
-            "texto": "Contactar ventas",
-            "enlace": "#contacto"
-          }
+          "insignia": "",
+          "precio_anual": ""
         }
       ],
       "ancla": "precios"
@@ -199,9 +268,14 @@
       "ancla": ""
     },
     {
+      "texto": "Cuéntanos qué necesitas y te respondemos en menos de 24 horas.",
+      "boton": "Enviar mensaje",
+      "enviado_titulo": "Mensaje listo.",
+      "ancla": "contacto",
+      "whatsapp": "525633668185",
+      "enviado_texto": "Se abrió tu aplicación de correo con el mensaje: sólo falta darle Enviar.",
       "tipo": "contacto",
       "titulo": "Hablemos.",
-      "texto": "Cuéntanos qué necesitas y te respondemos en menos de 24 horas.",
       "datos": [
         {
           "etiqueta": "Correo",
@@ -212,11 +286,7 @@
           "valor": "Calle Ejemplo 123, Ciudad"
         }
       ],
-      "correo_destino": "hola@nombre.com",
-      "boton": "Enviar mensaje",
-      "enviado_titulo": "Mensaje listo.",
-      "enviado_texto": "Se abrió tu aplicación de correo con el mensaje: sólo falta darle Enviar.",
-      "ancla": "contacto"
+      "correo_destino": "hola@nombre.com"
     }
   ]
 }
