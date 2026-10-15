@@ -22,7 +22,7 @@
     {
       "elementos": [
         {
-          "icono": "speed",
+          "icono": "spa",
           "titulo": "Rápido desde el primer día",
           "texto": "Configúralo en minutos y empieza a ver resultados sin curva de aprendizaje.",
           "enlace": {
@@ -31,7 +31,7 @@
           }
         },
         {
-          "icono": "lock",
+          "icono": "favorite",
           "titulo": "Seguro por diseño",
           "texto": "Tus datos viajan cifrados y sólo los ve quien tú decides.",
           "enlace": {
@@ -40,7 +40,7 @@
           }
         },
         {
-          "icono": "sync",
+          "icono": "lips",
           "titulo": "Siempre sincronizado",
           "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
           "enlace": {
@@ -49,7 +49,7 @@
           }
         },
         {
-          "icono": "insights",
+          "icono": "Local_Florist",
           "titulo": "Decisiones con datos",
           "texto": "Reportes claros para saber qué funciona y qué ajustar.",
           "enlace": {
@@ -58,7 +58,7 @@
           }
         },
         {
-          "icono": "support_agent",
+          "icono": "Massage",
           "titulo": "Soporte humano",
           "texto": "Personas reales que responden en tu idioma y en horario hábil.",
           "enlace": {
@@ -67,7 +67,7 @@
           }
         },
         {
-          "icono": "tune",
+          "icono": "support_agent",
           "titulo": "A tu medida",
           "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
           "enlace": {
