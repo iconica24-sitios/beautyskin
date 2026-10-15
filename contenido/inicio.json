@@ -40,7 +40,7 @@
           }
         },
         {
-          "icono": "lips",
+          "icono": "face",
           "titulo": "Siempre sincronizado",
           "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
           "enlace": {
@@ -49,7 +49,7 @@
           }
         },
         {
-          "icono": "Local_Florist",
+          "icono": "Fragrance",
           "titulo": "Decisiones con datos",
           "texto": "Reportes claros para saber qué funciona y qué ajustar.",
           "enlace": {
@@ -67,7 +67,7 @@
           }
         },
         {
-          "icono": "support_agent",
+          "icono": "Self_Improvement",
           "titulo": "A tu medida",
           "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
           "enlace": {
