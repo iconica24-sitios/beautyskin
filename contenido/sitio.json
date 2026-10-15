@@ -22,8 +22,8 @@
     }
   ],
   "boton": {
-    "texto": "Entrar",
-    "enlace": "#precios"
+    "texto": "Comprar este sitio",
+    "enlace": "https://grfkweb.com"
   },
   "pie": {
     "redes": [
