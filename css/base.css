@@ -62,11 +62,11 @@ section.bloque--papel { background: var(--papel); }
 .titulo-seccion { margin: 0; font-size: clamp(34px, 4.4vw, 52px); line-height: 1.15; letter-spacing: -0.015em; font-weight: 300; text-wrap: balance; }
 .texto-seccion { margin: 24px 0 0; font-size: 18px; line-height: 1.7; font-weight: 300; color: var(--gris); text-wrap: pretty; }
 
-/* ---------- Iconos (Material Symbols Outlined, Google Fonts) ----------
+/* ---------- Iconos (Material Symbols Rounded, peso 100, Google Fonts) ----------
    El nombre del icono es el texto del elemento (p. ej. "speed"); la fuente lo dibuja
    sin JavaScript. Ancho fijo y overflow para que el nombre no asome mientras carga. */
 .icono {
-  font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal;
+  font-family: 'Material Symbols Rounded'; font-weight: normal; font-style: normal;
   font-size: 24px; line-height: 1; letter-spacing: normal; text-transform: none;
   display: inline-block; width: 1em; height: 1em; overflow: hidden; white-space: nowrap; direction: ltr;
   -webkit-font-feature-settings: 'liga'; font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased;
