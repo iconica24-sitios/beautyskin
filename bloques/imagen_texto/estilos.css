@@ -1,0 +1,40 @@
+/* Imagen y texto: imagen a sangre a un lado (se oculta en celular) */
+.imagen-texto { background: var(--papel); border-top: 1px solid var(--linea); }
+.imagen-texto--suave { background: var(--suave); border-top: 0; }
+.imagen-texto__fila { display: flex; align-items: stretch; }
+.imagen-texto--derecha .imagen-texto__fila { flex-direction: row-reverse; }
+.imagen-texto__imagen { position: relative; flex-shrink: 0; width: 0; overflow: hidden; }
+.imagen-texto__imagen img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.imagen-texto__cuerpo { flex: 1; min-width: 0; padding: 112px 32px; }
+@media (min-width: 768px) {
+  .imagen-texto__imagen { width: 50%; }
+  .imagen-texto__cuerpo { padding-inline: clamp(48px, 6vw, 112px); }
+}
+.imagen-texto__rotulo { margin: 0 0 20px; font-size: 14px; font-weight: 500; color: var(--acento); }
+.imagen-texto__texto { margin: 28px 0 0; font-size: 18px; line-height: 1.65; color: var(--gris); text-wrap: pretty; }
+.imagen-texto__pasos { margin-top: 40px; display: flex; flex-direction: column; border-top: 1px solid var(--linea-fuerte); counter-reset: paso; }
+.imagen-texto__paso { padding: 18px 0; border-bottom: 1px solid var(--linea-fuerte); display: flex; gap: 20px; font-size: 16px; font-weight: 500; }
+.imagen-texto__paso::before { counter-increment: paso; content: counter(paso); font-family: var(--mono); font-size: 13px; color: var(--gris-claro); padding-top: 3px; }
+/* Botones opcionales al final del texto: en línea a la izquierda y del mismo ancho (el del texto más largo);
+   en celular, uno sobre otro a todo el ancho */
+.imagen-texto__botones { margin-top: 40px; display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 12px; max-width: 100%; }
+.imagen-texto__botones .boton { text-align: center; }
+.imagen-texto__boton2 { background: var(--blanco); }
+@media (max-width: 639px) {
+  .imagen-texto__botones { display: grid; grid-auto-flow: row; }
+}
+/* Si la columna de texto queda angosta (imagen al lado), los botones también van uno sobre otro.
+   Navegadores con consultas de contenedor: se decide por el ancho real de la columna.
+   Navegadores viejos: respaldo por ancho de pantalla (768–1023px). */
+.imagen-texto__cuerpo { container-type: inline-size; }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .imagen-texto__botones { display: grid; grid-auto-flow: row; }
+}
+@supports (container-type: inline-size) {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .imagen-texto__botones { display: inline-grid; grid-auto-flow: column; }
+  }
+  @container (max-width: 440px) {
+    .imagen-texto__botones { display: grid; grid-auto-flow: row; }
+  }
+}

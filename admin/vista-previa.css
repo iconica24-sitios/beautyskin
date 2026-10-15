@@ -1,0 +1,17 @@
+/* Sólo para la vista previa del panel. Ahí no corre JavaScript y el panel es
+   angosto (se vería la versión de celular, con el menú escondido tras la
+   hamburguesa): el menú se muestra en línea para ver lo que se edita en
+   Sitio → Menú. */
+.menu { display: flex !important; flex-wrap: wrap; gap: 8px 20px; margin-left: 0; }
+.cabecera__acciones { display: flex !important; }
+.cabecera__fila { flex-wrap: wrap; }
+.hamburguesa, .menu-movil { display: none !important; }
+/* La cabecera no se queda pegada arriba: taparía lo que se está editando. */
+.cabecera { position: relative; }
+.portada { margin-top: 0; }
+/* Submenús: se comportan como en el sitio (se abren al pasar el cursor).
+   Mientras se edita una opción de un submenú, el panel marca sus
+   contenedores con .cms-camino y el submenú se queda abierto. */
+.cms-camino > .submenu { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }
+.menu__item.cms-camino > .menu__flecha { transform: translateY(1px) rotate(225deg); opacity: 1; }
+.submenu__item.cms-camino > a { background: var(--suave); }

@@ -1,0 +1,20 @@
+/* Portada: a sangre, sube bajo la cabecera transparente */
+.portada {
+  position: relative; margin-top: calc(-1 * var(--alto-cabecera)); min-height: 640px;
+  display: flex; flex-direction: column; justify-content: flex-end; overflow: hidden;
+}
+@media (min-width: 1024px) { .portada { min-height: max(640px, 100vh); min-height: max(640px, 100svh); } }
+/* Si no es el primer bloque, no sube bajo la cabecera (taparía el bloque anterior) */
+* + .portada { margin-top: 0; }
+* + .portada .portada__interior { padding-top: 112px; }
+.portada__fondo { position: absolute; inset: 0; background: repeating-linear-gradient(135deg, #f1f5f9 0 12px, #eaf0f5 12px 24px); }
+.portada__imagen { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.portada__interior { position: relative; max-width: 1200px; width: 100%; margin: 0 auto; padding: 180px 32px 32px; } /* margen inferior = margen lateral */
+.portada__cuerpo { max-width: 880px; }
+.portada__titulo { margin: 0; font-size: clamp(44px, 7.6vw, 96px); line-height: 1.06; letter-spacing: -0.03em; font-weight: 300; text-wrap: balance; }
+.portada__texto { margin: 32px 0 0; font-size: 20px; line-height: 1.65; font-weight: 300; color: var(--gris); max-width: 600px; text-wrap: pretty; }
+/* Botones del mismo ancho (el del texto más largo); en celular, uno sobre otro a todo el ancho */
+.portada__botones { margin-top: 44px; display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 14px; max-width: 100%; }
+.portada__botones .boton { text-align: center; }
+@media (max-width: 639px) { .portada__botones { display: grid; grid-auto-flow: row; } }
+.portada__botones .boton--borde { background-color: #ffffff; }

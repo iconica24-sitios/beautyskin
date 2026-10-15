@@ -1,0 +1,45 @@
+{
+  "nombre": "Nombre",
+  "marca": {
+    "acento": "#1f5fa8"
+  },
+  "menu": [
+    {
+      "texto": "Funciones",
+      "enlace": "#funciones"
+    },
+    {
+      "texto": "Producto",
+      "enlace": "#producto"
+    },
+    {
+      "texto": "Precios",
+      "enlace": "#precios"
+    },
+    {
+      "texto": "Contacto",
+      "enlace": "#contacto"
+    }
+  ],
+  "boton": {
+    "texto": "Entrar",
+    "enlace": "#precios"
+  },
+  "pie": {
+    "redes": [
+      {
+        "red": "facebook",
+        "url": "https://www.facebook.com/"
+      },
+      {
+        "red": "instagram",
+        "url": "https://www.instagram.com/"
+      },
+      {
+        "red": "linkedin",
+        "url": "https://www.linkedin.com/"
+      }
+    ],
+    "legal": "© 2026 Nombre"
+  }
+}

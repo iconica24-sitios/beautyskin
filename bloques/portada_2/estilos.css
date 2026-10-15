@@ -1,0 +1,29 @@
+/* Portada 2: imagen a sangre con el título en una franja blanca translúcida, centrado abajo.
+   Desde 640px los botones van sobre la imagen; en celular bajan, apilados y a todo el ancho.
+   Tiene fondo propio (la imagen): no lleva la casilla de fondo. */
+.portada-2 { position: relative; --portada-2-botones: 0px; }
+.portada-2__marco { position: relative; overflow: hidden; height: 125vw; min-height: 380px; display: flex; flex-direction: column; justify-content: flex-end; }
+.portada-2__imagen { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
+.portada-2__texto { position: relative; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 16px; display: flex; justify-content: center; padding-bottom: calc(28px + var(--portada-2-botones)); }
+.portada-2__titulo {
+  margin: 0; max-width: 100%; padding: 8px 14px; overflow-wrap: break-word; background: rgba(255, 255, 255, 0.3);
+  font-size: clamp(28px, 4.6vw, 56px); line-height: 1.15; letter-spacing: -0.015em; font-weight: 300;
+  color: var(--tinta); text-align: center; text-wrap: balance;
+}
+.portada-2__botones { padding: 28px 16px 36px; background: var(--suave); display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; }
+.portada-2__botones .boton { text-align: center; }
+.portada-2__botones .boton--borde { background-color: #ffffff; }
+@media (min-width: 640px) {
+  .portada-2 { --portada-2-botones: 100px; }
+  .portada-2__marco { height: auto; min-height: max(560px, calc(100vh - var(--alto-cabecera))); min-height: max(560px, calc(100svh - var(--alto-cabecera))); }
+  .portada-2__texto { padding-left: 32px; padding-right: 32px; padding-bottom: calc(40px + var(--portada-2-botones)); }
+  .portada-2__titulo { padding: 10px 24px; }
+  .portada-2__botones {
+    position: absolute; left: 50%; bottom: 48px; transform: translateX(-50%); padding: 0; background: none;
+    display: inline-grid; grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 14px;
+    width: max-content; max-width: calc(100% - 64px);
+  }
+  .portada-2__botones .boton { min-width: 200px; }
+}
+/* Sin botones, el título baja hasta el margen inferior */
+.portada-2__marco:last-child .portada-2__texto { padding-bottom: 40px; }
