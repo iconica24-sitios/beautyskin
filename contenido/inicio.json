@@ -107,7 +107,8 @@
           "texto": "Cierra con la función que reduce la fricción o el riesgo de empezar."
         }
       ],
-      "ancla": "funciones"
+      "ancla": "funciones",
+      "oculto": true
     },
     {
       "tipo": "incluye",
@@ -126,6 +127,48 @@
         "texto": "Ver planes",
         "enlace": "#precios"
       },
+      "ancla": "",
+      "fondo_suave": true
+    },
+    {
+      "tipo": "funciones_3",
+      "oculto": false,
+      "rotulo": "Funciones",
+      "titulo": "Cada función, con su imagen.",
+      "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
+      "tarjetas": [
+        {
+          "imagen": "",
+          "categoria": "Categoría",
+          "titulo": "Función principal",
+          "texto": "Describe el beneficio concreto, no la tecnología detrás.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "imagen": "",
+          "categoria": "Categoría",
+          "titulo": "Segunda función",
+          "texto": "Una o dos líneas bastan para explicarla.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        },
+        {
+          "imagen": "",
+          "categoria": "Categoría",
+          "titulo": "Tercera función",
+          "texto": "Cierra con lo que reduce el riesgo de empezar.",
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          }
+        }
+      ],
+      "fondo_suave": false,
       "ancla": ""
     },
     {
@@ -192,7 +235,8 @@
           "foto": ""
         }
       ],
-      "ancla": ""
+      "ancla": "",
+      "oculto": true
     },
     {
       "tipo": "precios",
