@@ -167,6 +167,27 @@
             "texto": "Saber más",
             "url": "#"
           }
+        },
+        {
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          },
+          "titulo": "Cuarta función"
+        },
+        {
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          },
+          "titulo": "Quinta función"
+        },
+        {
+          "enlace": {
+            "texto": "Saber más",
+            "url": "#"
+          },
+          "titulo": "Sexta función"
         }
       ],
       "fondo_suave": true,
