@@ -111,10 +111,14 @@
       "oculto": true
     },
     {
-      "tipo": "incluye",
       "rotulo": "Incluido",
-      "titulo": "Todo viene listo desde el primer día.",
       "texto": "Una línea que resuma lo que obtiene el usuario sin configuración adicional ni costos ocultos.",
+      "boton": {
+        "texto": "Ver planes",
+        "enlace": "#precios"
+      },
+      "oculto": true,
+      "ancla": "",
       "puntos": [
         "Primera característica incluida",
         "Segunda característica incluida",
@@ -123,11 +127,8 @@
         "Quinta característica incluida",
         "Sexta característica incluida"
       ],
-      "boton": {
-        "texto": "Ver planes",
-        "enlace": "#precios"
-      },
-      "ancla": "",
+      "tipo": "incluye",
+      "titulo": "Todo viene listo desde el primer día.",
       "fondo_suave": true
     },
     {
@@ -168,7 +169,7 @@
           }
         }
       ],
-      "fondo_suave": false,
+      "fondo_suave": true,
       "ancla": ""
     },
     {
@@ -192,7 +193,7 @@
       "tipo": "imagen_texto",
       "titulo": "Explica el flujo principal en una frase.",
       "imagen_derecha": false,
-      "fondo_suave": true
+      "fondo_suave": false
     },
     {
       "rotulo": "Cómo funciona",
@@ -301,7 +302,8 @@
           "precio_anual": ""
         }
       ],
-      "ancla": "precios"
+      "ancla": "precios",
+      "fondo_suave": true
     },
     {
       "tipo": "llamada",
