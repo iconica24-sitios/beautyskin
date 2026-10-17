@@ -139,7 +139,7 @@
       "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
       "tarjetas": [
         {
-          "imagen": "",
+          "imagen": "/imagenes/arte_02.webp",
           "categoria": "Categoría",
           "titulo": "Función principal",
           "texto": "Describe el beneficio concreto, no la tecnología detrás.",
@@ -149,7 +149,7 @@
           }
         },
         {
-          "imagen": "",
+          "imagen": "/imagenes/arte_01.webp",
           "categoria": "Categoría",
           "titulo": "Segunda función",
           "texto": "Una o dos líneas bastan para explicarla.",
@@ -159,7 +159,7 @@
           }
         },
         {
-          "imagen": "",
+          "imagen": "/imagenes/arte_08.webp",
           "categoria": "Categoría",
           "titulo": "Tercera función",
           "texto": "Cierra con lo que reduce el riesgo de empezar.",
@@ -173,14 +173,16 @@
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Cuarta función"
+          "titulo": "Cuarta función",
+          "imagen": "/imagenes/arte_05.webp"
         },
         {
           "enlace": {
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Quinta función"
+          "titulo": "Quinta función",
+          "imagen": "/imagenes/arte_07.webp"
         },
         {
           "enlace": {
