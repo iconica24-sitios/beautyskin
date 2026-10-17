@@ -72,6 +72,47 @@ section.bloque--papel { background: var(--papel); }
   -webkit-font-feature-settings: 'liga'; font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased;
 }
 
+/* Centrado óptico: el dibujo de algunos iconos no está al centro de su caja
+   (el corazón queda alto, la hoja de spa baja…). Esta tabla, medida para
+   Material Symbols Rounded, peso 100, lo compensa y se ve también en la vista previa del panel.
+   Los iconos que no estén aquí los corrige js/sitio.js en el sitio publicado.
+   Requiere data-icono con el nombre (data-cms-data-icono en el bloque). */
+.icono[data-icono="air"] { translate: 0 0.02em; }
+.icono[data-icono="chat"] { translate: 0 0.046em; }
+.icono[data-icono="clinical_notes"] { translate: -0.05em -0.024em; }
+.icono[data-icono="dermatology"] { translate: 0 0.034em; }
+.icono[data-icono="diamond"] { translate: 0 0.026em; }
+.icono[data-icono="directions_car"] { translate: 0 -0.039em; }
+.icono[data-icono="dry"] { translate: 0 0.018em; }
+.icono[data-icono="eco"] { translate: 0.02em -0.061em; }
+.icono[data-icono="elderly"] { translate: -0.053em 0; }
+.icono[data-icono="face_3"] { translate: 0 0.046em; }
+.icono[data-icono="face_4"] { translate: 0.053em -0.045em; }
+.icono[data-icono="face_retouching_natural"] { translate: -0.032em 0.034em; }
+.icono[data-icono="favorite"] { translate: 0 0.031em; }
+.icono[data-icono="favorite_border"] { translate: 0 0.031em; }
+.icono[data-icono="female"] { translate: 0 -0.022em; }
+.icono[data-icono="forum"] { translate: 0 0.066em; }
+.icono[data-icono="groups"] { translate: 0 -0.057em; }
+.icono[data-icono="hot_tub"] { translate: 0 -0.017em; }
+.icono[data-icono="local_cafe"] { translate: -0.042em 0; }
+.icono[data-icono="local_parking"] { translate: -0.02em 0; }
+.icono[data-icono="medical_services"] { translate: 0 -0.024em; }
+.icono[data-icono="nightlight"] { translate: 0.033em 0; }
+.icono[data-icono="pets"] { translate: 0 -0.024em; }
+.icono[data-icono="psychiatry"] { translate: 0 -0.024em; }
+.icono[data-icono="restaurant"] { translate: 0.034em 0; }
+.icono[data-icono="savings"] { translate: 0 0.023em; }
+.icono[data-icono="send"] { translate: 0.046em 0; }
+.icono[data-icono="shopping_cart"] { translate: 0.049em 0.01em; }
+.icono[data-icono="soap"] { translate: 0 0.018em; }
+.icono[data-icono="spa"] { translate: 0 -0.038em; }
+.icono[data-icono="sports_gymnastics"] { translate: 0.026em -0.038em; }
+.icono[data-icono="thumb_up"] { translate: -0.02em 0.015em; }
+.icono[data-icono="vaccines"] { translate: 0.02em 0; }
+.icono[data-icono="volunteer_activism"] { translate: 0.01em -0.02em; }
+.icono[data-icono="wifi"] { translate: 0 -0.042em; }
+
 /* ---------- Botones ---------- */
 .boton { display: inline-block; font-size: 15px; font-weight: 400; letter-spacing: 0.04em; padding: 16px 32px; border-radius: var(--radio-boton); }
 .boton--chico { font-size: 15px; padding: 10px 18px; }
