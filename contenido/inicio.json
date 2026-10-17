@@ -76,14 +76,14 @@
           }
         }
       ],
-      "rotulo": "Ventajas",
+      "rotulo": "Beneficios",
       "texto": "Resume en una o dos líneas lo que tienen en común estas ventajas.",
       "boton": {
         "texto": "Empezar ahora",
         "enlace": "#contacto"
       },
       "oculto": false,
-      "ancla": "",
+      "ancla": "beneficios",
       "tipo": "iconos",
       "titulo": "Todo lo que necesitas, en un solo lugar",
       "fondo_suave": false
@@ -134,7 +134,7 @@
     {
       "tipo": "funciones_3",
       "oculto": false,
-      "rotulo": "Funciones",
+      "rotulo": "Tratamientos",
       "titulo": "Cada función, con su imagen.",
       "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
       "tarjetas": [
@@ -194,7 +194,7 @@
         }
       ],
       "fondo_suave": true,
-      "ancla": ""
+      "ancla": "tratamientos"
     },
     {
       "rotulo": "Cómo funciona",
