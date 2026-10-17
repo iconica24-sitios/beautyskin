@@ -140,9 +140,9 @@
       "tarjetas": [
         {
           "imagen": "/imagenes/arte_02.webp",
-          "categoria": "Categoría",
-          "titulo": "Función principal",
-          "texto": "Describe el beneficio concreto, no la tecnología detrás.",
+          "categoria": "Tratamiento",
+          "titulo": "Facial con Láser",
+          "texto": "Describe el beneficio concreto, o la tecnología detrás.",
           "enlace": {
             "texto": "Saber más",
             "url": "#"
@@ -150,8 +150,8 @@
         },
         {
           "imagen": "/imagenes/arte_01a.webp",
-          "categoria": "Categoría",
-          "titulo": "Segunda función",
+          "categoria": "Sesión Única",
+          "titulo": "Depilación Láser",
           "texto": "Una o dos líneas bastan para explicarla.",
           "enlace": {
             "texto": "Saber más",
@@ -160,8 +160,8 @@
         },
         {
           "imagen": "/imagenes/arte_13.webp",
-          "categoria": "Categoría",
-          "titulo": "Tercera función",
+          "categoria": "Tratamiento",
+          "titulo": "Limpieza Facial",
           "texto": "Cierra con lo que reduce el riesgo de empezar.",
           "enlace": {
             "texto": "Saber más",
@@ -173,24 +173,27 @@
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Cuarta función",
-          "imagen": "/imagenes/arte_06a.webp"
+          "titulo": "Cavitación",
+          "imagen": "/imagenes/arte_06a.webp",
+          "categoria": "Tratamiento"
         },
         {
           "enlace": {
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Sexta función",
-          "imagen": "/imagenes/arte_12a.webp"
+          "titulo": "Depilación Laser",
+          "imagen": "/imagenes/arte_12a.webp",
+          "categoria": "Sesión Única"
         },
         {
           "enlace": {
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Quinta función",
-          "imagen": "/imagenes/arte_07a.webp"
+          "titulo": "Masajes Relajantes",
+          "imagen": "/imagenes/arte_07a.webp",
+          "categoria": "Sesión Única"
         }
       ],
       "fondo_suave": true,
