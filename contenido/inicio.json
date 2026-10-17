@@ -149,7 +149,7 @@
           }
         },
         {
-          "imagen": "/imagenes/arte_01.webp",
+          "imagen": "/imagenes/arte_01a.webp",
           "categoria": "Categoría",
           "titulo": "Segunda función",
           "texto": "Una o dos líneas bastan para explicarla.",
@@ -174,7 +174,7 @@
             "url": "#"
           },
           "titulo": "Cuarta función",
-          "imagen": "/imagenes/arte_05.webp"
+          "imagen": "/imagenes/arte_06a.webp"
         },
         {
           "enlace": {
@@ -182,7 +182,7 @@
             "url": "#"
           },
           "titulo": "Sexta función",
-          "imagen": "/imagenes/arte_12.webp"
+          "imagen": "/imagenes/arte_12a.webp"
         },
         {
           "enlace": {
@@ -190,7 +190,7 @@
             "url": "#"
           },
           "titulo": "Quinta función",
-          "imagen": "/imagenes/arte_07.webp"
+          "imagen": "/imagenes/arte_07a.webp"
         }
       ],
       "fondo_suave": true,
