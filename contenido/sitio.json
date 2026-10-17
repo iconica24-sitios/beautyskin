@@ -5,12 +5,12 @@
   },
   "menu": [
     {
-      "texto": "Funciones",
-      "enlace": "#funciones"
+      "texto": "Beneficios",
+      "enlace": "#beneficios"
     },
     {
-      "texto": "Producto",
-      "enlace": "#producto"
+      "texto": "Tratamientos",
+      "enlace": "#tratamientos"
     },
     {
       "texto": "Precios",
