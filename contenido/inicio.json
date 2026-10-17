@@ -15,7 +15,7 @@
       },
       "boton2": {
         "texto": "Ver tratamientos",
-        "enlace": "#funciones"
+        "enlace": "#tratamientos"
       },
       "ancla": ""
     },
@@ -135,7 +135,7 @@
       "tipo": "funciones_3",
       "oculto": false,
       "rotulo": "Tratamientos",
-      "titulo": "Cada función, con su imagen.",
+      "titulo": "Cada tratamiento, con su imagen.",
       "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
       "tarjetas": [
         {
