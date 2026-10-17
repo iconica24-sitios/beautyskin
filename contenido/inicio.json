@@ -181,15 +181,16 @@
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Quinta función",
-          "imagen": "/imagenes/arte_07.webp"
+          "titulo": "Sexta función",
+          "imagen": "/imagenes/arte_12.webp"
         },
         {
           "enlace": {
             "texto": "Saber más",
             "url": "#"
           },
-          "titulo": "Sexta función"
+          "titulo": "Quinta función",
+          "imagen": "/imagenes/arte_07.webp"
         }
       ],
       "fondo_suave": true,
