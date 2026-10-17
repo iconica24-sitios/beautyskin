@@ -1,8 +1,8 @@
 {
-  "label": "Portada con imagen",
+  "label": "Portada A",
   "name": "portada_2",
   "widget": "object",
-  "summary": "Portada con imagen — {{fields.titulo}}",
+  "summary": "{{fields.titulo}}",
   "fondo": false,
   "fields": [
     {
