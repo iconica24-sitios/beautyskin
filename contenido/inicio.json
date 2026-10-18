@@ -79,7 +79,7 @@
         }
       ],
       "rotulo": "Beneficios",
-      "texto": "Resume en una o dos líneas lo que tienen en común estas ventajas.",
+      "texto": "En BeautySkin Spa, además de contar con tecnología de punta al servicio de tu piel, sabemos que cada persona es única. Por eso hemos diseñado nuestros tratamientos pensando en ti.",
       "boton": {
         "texto": "Empezar ahora",
         "enlace": "#contacto"
@@ -87,7 +87,7 @@
       "oculto": false,
       "ancla": "beneficios",
       "tipo": "iconos",
-      "titulo": "Todo lo que necesitas, en un solo lugar",
+      "titulo": "Atención personalizada",
       "fondo_suave": false
     },
     {
