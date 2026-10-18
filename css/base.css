@@ -71,6 +71,8 @@ section.bloque--papel { background: var(--papel); }
   display: inline-block; width: 1em; height: 1em; overflow: hidden; white-space: nowrap; direction: ltr;
   -webkit-font-feature-settings: 'liga'; font-feature-settings: 'liga'; -webkit-font-smoothing: antialiased;
 }
+/* Arreglo temporal: el corazón (favorite) se ve alto en móviles; así baja. */
+.icono--corazon { line-height: normal; }
 
 /* ---------- Botones ---------- */
 .boton { display: inline-block; font-size: 15px; font-weight: 400; letter-spacing: 0.04em; padding: 16px 32px; border-radius: var(--radio-boton); }
