@@ -24,7 +24,7 @@
         {
           "icono": "spa",
           "titulo": "Equipo Profesional",
-          "texto": "Configúralo en minutos y empieza a ver resultados sin curva de aprendizaje.",
+          "texto": "Aparatología especializada para cada tipo de piel y necesidad.",
           "enlace": {
             "texto": "",
             "url": ""
@@ -33,7 +33,7 @@
         {
           "icono": "favorite",
           "titulo": "Atención Personalizada",
-          "texto": "Tus datos viajan cifrados y sólo los ve quien tú decides.",
+          "texto": "Valoramos tu caso antes de recomendarte cualquier tratamiento.",
           "enlace": {
             "texto": "",
             "url": ""
@@ -43,7 +43,7 @@
         {
           "icono": "face",
           "titulo": "Resultados Visibles",
-          "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
+          "texto": "Protocolos diseñados para que notes la diferencia sesión a sesión.",
           "enlace": {
             "texto": "",
             "url": ""
@@ -52,7 +52,7 @@
         {
           "icono": "Fragrance",
           "titulo": "Higiene y Protocolo",
-          "texto": "Reportes claros para saber qué funciona y qué ajustar.",
+          "texto": "Material desechable y limpieza rigurosa en cada servicio.",
           "enlace": {
             "texto": "",
             "url": ""
@@ -62,7 +62,7 @@
         {
           "icono": "Massage",
           "titulo": "Un Epacio para ti",
-          "texto": "Personas reales que responden en tu idioma y en horario hábil.",
+          "texto": "Ambiente tranquilo, sin prisas y sin interrupciones.",
           "enlace": {
             "texto": "",
             "url": ""
@@ -71,7 +71,7 @@
         {
           "icono": "Schedule",
           "titulo": "Horarios Flexibles",
-          "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
+          "texto": "Agenda en línea y elige el día y la hora que te acomoden.",
           "enlace": {
             "texto": "",
             "url": ""
