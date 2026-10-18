@@ -37,7 +37,8 @@
           "enlace": {
             "texto": "Saber más",
             "url": "#"
-          }
+          },
+          "posicion": "bajar"
         },
         {
           "icono": "face",
@@ -55,7 +56,8 @@
           "enlace": {
             "texto": "Saber más",
             "url": "#"
-          }
+          },
+          "posicion": "centrado"
         },
         {
           "icono": "Massage",
