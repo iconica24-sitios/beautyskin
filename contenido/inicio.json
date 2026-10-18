@@ -144,58 +144,61 @@
           "imagen": "/imagenes/arte_02.webp",
           "categoria": "Tratamiento",
           "titulo": "Facial con Láser",
-          "texto": "Describe el beneficio concreto, o la tecnología detrás.",
+          "texto": "Renueva la textura y el tono de tu piel con tecnología de precisión.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "imagen": "/imagenes/arte_01a.webp",
           "categoria": "Sesión Única",
           "titulo": "Depilación Láser",
-          "texto": "Una o dos líneas bastan para explicarla.",
+          "texto": "Olvídate de la rutina de rasurar. Resultados progresivos y duraderos.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "imagen": "/imagenes/arte_13.webp",
           "categoria": "Tratamiento",
           "titulo": "Limpieza Facial",
-          "texto": "Cierra con lo que reduce el riesgo de empezar.",
+          "texto": "Limpieza profunda que deja tu piel libre de impurezas y lista para respirar.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
           "titulo": "Cavitación",
           "imagen": "/imagenes/arte_06a.webp",
-          "categoria": "Tratamiento"
+          "categoria": "Tratamiento",
+          "texto": "Reduce medidas y mejora el contorno corporal sin procedimientos invasivos."
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
-          "titulo": "Depilación Laser",
+          "titulo": "Depilación Láser Corporal",
           "imagen": "/imagenes/arte_12a.webp",
-          "categoria": "Sesión Única"
+          "categoria": "Sesión Única",
+          "texto": "Cobertura de áreas amplias en menos tiempo y con mayor comodidad."
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
           "titulo": "Masajes Relajantes",
           "imagen": "/imagenes/arte_07a.webp",
-          "categoria": "Sesión Única"
+          "categoria": "Sesión Única",
+          "texto": "Libera la tensión acumulada y recupera tu energía en una hora."
         }
       ],
       "fondo_suave": true,
@@ -203,15 +206,15 @@
     },
     {
       "rotulo": "Cómo funciona",
-      "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
+      "texto": "Agenda en línea, te hacemos una valoración sin costo y diseñamos juntos el tratamiento que mejor se ajusta a tu piel y a tus tiempos. Nada de paquetes forzados: avanzamos a tu ritmo.",
       "boton": {
         "texto": "",
         "enlace": ""
       },
       "pasos": [
-        "Primer paso del proceso",
-        "Segundo paso del proceso",
-        "Resultado final"
+        "Agenda tu valoración",
+        "Diseñamos tu tratamiento",
+        "Resultados a tu ritmo"
       ],
       "ancla": "producto",
       "boton2": {
@@ -220,7 +223,7 @@
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
-      "titulo": "Explica el flujo principal en una frase.",
+      "titulo": "De la primera cita a los resultados.",
       "imagen_derecha": false,
       "fondo_suave": false
     },
