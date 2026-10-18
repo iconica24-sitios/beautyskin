@@ -137,8 +137,8 @@
       "tipo": "funciones_3",
       "oculto": false,
       "rotulo": "Tratamientos",
-      "titulo": "Cada tratamiento, con su imagen.",
-      "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
+      "titulo": "Tratamientos y Sesiones",
+      "texto": "Agenda por tratamiento o sesión única.",
       "tarjetas": [
         {
           "imagen": "/imagenes/arte_02.webp",
