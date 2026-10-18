@@ -213,7 +213,7 @@
       },
       "pasos": [
         "Agenda tu valoración",
-        "Diseñamos tu tratamiento",
+        "**Diseñamos tu tratamiento** — Revisamos tu caso y te proponemos un plan.",
         "Resultados a tu ritmo"
       ],
       "ancla": "producto",
@@ -231,9 +231,9 @@
       "rotulo": "Tu primera visita",
       "texto": "Llegas, te recibimos sin prisas y revisamos contigo lo que platicamos en la valoración. Cada sesión empieza con una revisión breve de cómo respondió tu piel a la anterior, para ajustar lo que haga falta. Nada se hace en automático.",
       "pasos": [
-        "Agenda tu valoración",
-        "Diseñamos tu tratamiento",
-        "Resultados a tu ritmo"
+        "Recepción y revisión",
+        "**Tu sesión** — El tratamiento, con el tiempo que necesita y sin interrupciones.",
+        "Cuidados en casa"
       ],
       "ancla": "",
       "descripcion": "",
