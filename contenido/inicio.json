@@ -228,8 +228,8 @@
       "fondo_suave": false
     },
     {
-      "rotulo": "Este 1 y 2 de Noviembre:",
-      "texto": "Para que el próximo día de Muertos y Todos los Santos no andes de Frida sin el disfraz, aquí te esperamos con nuestro paquete, ceja, bigote y piernas.",
+      "rotulo": "Tu primera visita",
+      "texto": "Llegas, te recibimos sin prisas y revisamos contigo lo que platicamos en la valoración. Cada sesión empieza con una revisión breve de cómo respondió tu piel a la anterior, para ajustar lo que haga falta. Nada se hace en automático.",
       "pasos": [
         "Agenda tu valoración",
         "Diseñamos tu tratamiento",
@@ -239,7 +239,7 @@
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
-      "titulo": "¡20% de descuento en ceja, bigote, y piernas!",
+      "titulo": "Qué esperar el día de tu cita",
       "imagen_derecha": true,
       "fondo_suave": false
     },
