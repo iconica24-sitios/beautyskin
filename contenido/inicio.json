@@ -228,18 +228,18 @@
       "fondo_suave": false
     },
     {
-      "rotulo": "Cómo funciona",
-      "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
+      "rotulo": "Este 1 y 2 de Noviembre:",
+      "texto": "Para que el próximo día de Muertos y Todos los Santos no andes de Frida sin el disfraz, aquí te esperamos con nuestro paquete, ceja, bigote y piernas.",
       "pasos": [
-        "Primer paso del proceso",
-        "Segundo paso del proceso",
-        "Resultado final"
+        "Agenda tu valoración",
+        "Diseñamos tu tratamiento",
+        "Resultados a tu ritmo"
       ],
       "ancla": "",
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
-      "titulo": "Explica el flujo principal en una frase.",
+      "titulo": "¡20% de descuento en ceja, bigote, y piernas!",
       "imagen_derecha": true,
       "fondo_suave": false
     },
