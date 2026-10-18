@@ -1,7 +1,7 @@
 {
   "seo": {
-    "titulo": "Nombre",
-    "descripcion": "Una frase clara que explica lo que hace tu producto."
+    "titulo": "BeautySkin Spa — Tratamientos faciales y corporales",
+    "descripcion": "Tratamientos faciales, depilación láser y masajes en un espacio pensado para ti. Agenda tu cita."
   },
   "bloques": [
     {
@@ -23,71 +23,71 @@
       "elementos": [
         {
           "icono": "spa",
-          "titulo": "Rápido desde el primer día",
+          "titulo": "Equipo Profesional",
           "texto": "Configúralo en minutos y empieza a ver resultados sin curva de aprendizaje.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
           "icono": "favorite",
-          "titulo": "Seguro por diseño",
+          "titulo": "Atención Personalizada",
           "texto": "Tus datos viajan cifrados y sólo los ve quien tú decides.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           },
           "posicion": "bajar"
         },
         {
           "icono": "face",
-          "titulo": "Siempre sincronizado",
+          "titulo": "Resultados Visibles",
           "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
           "icono": "Fragrance",
-          "titulo": "Decisiones con datos",
+          "titulo": "Higiene y Protocolo",
           "texto": "Reportes claros para saber qué funciona y qué ajustar.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           },
           "posicion": "centrado"
         },
         {
           "icono": "Massage",
-          "titulo": "Soporte humano",
+          "titulo": "Un Epacio para ti",
           "texto": "Personas reales que responden en tu idioma y en horario hábil.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
-          "icono": "Self_Improvement",
-          "titulo": "A tu medida",
+          "icono": "Schedule",
+          "titulo": "Horarios Flexibles",
           "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         }
       ],
-      "rotulo": "Beneficios",
-      "texto": "En BeautySkin Spa, además de contar con tecnología de punta al servicio de tu piel, sabemos que cada persona es única. Por eso hemos diseñado nuestros tratamientos pensando en ti.",
+      "rotulo": "Por qué elegirnos",
+      "texto": "Un espacio pensado para cuidar tu piel, tu descanso y salir de la rutina.",
       "boton": {
-        "texto": "Empezar ahora",
+        "texto": "Agendar mi cita",
         "enlace": "#contacto"
       },
       "oculto": false,
       "ancla": "beneficios",
       "tipo": "iconos",
-      "titulo": "Atención personalizada",
+      "titulo": "Todo lo que necesitas, en un solo lugar.",
       "fondo_suave": false
     },
     {
