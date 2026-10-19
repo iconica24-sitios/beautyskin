@@ -14,7 +14,7 @@
 .precios__periodo[aria-pressed="true"] { background: var(--blanco); box-shadow: 0 1px 3px rgba(19, 22, 28, 0.12); }
 .precios__planes { margin-top: 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px; align-items: stretch; }
 
-.plan { padding: 36px; border-radius: 16px; display: flex; flex-direction: column; background: transparent; color: var(--tinta); border: 1px solid var(--linea-fuerte); }
+.plan { padding: 36px; border-radius: 16px; display: flex; flex-direction: column; background-color: var(--papel); color: var(--tinta); border: 1px solid var(--linea-fuerte); }
 .plan--destacado { background: var(--tinta); color: var(--blanco); border-color: var(--tinta); }
 .plan__cabeza { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .plan__nombre { margin: 0; font-size: 18px; font-weight: 400; letter-spacing: 0.02em; }
