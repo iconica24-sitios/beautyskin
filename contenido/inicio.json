@@ -273,62 +273,63 @@
     },
     {
       "tipo": "precios",
-      "titulo": "Precios simples.",
-      "texto": "Empieza gratis y cambia de plan cuando lo necesites.",
+      "titulo": "Nuestros Precios",
+      "texto": "Sin paquetes forzosos. Pagas por sesión o tratamiento.",
       "etiqueta_mensual": "Mensual",
-      "etiqueta_anual": "Anual −20%",
+      "etiqueta_anual": "",
       "planes": [
         {
           "boton": {
-            "texto": "Empezar gratis",
+            "texto": "Agendar Sesión",
             "enlace": "#contacto"
           },
           "precio": "$699",
           "destacado": false,
-          "nombre": "Básico",
-          "descripcion": "Para probar el producto sin compromiso.",
+          "nombre": "Sesión Única",
+          "descripcion": "Para probar el tratamiento que te interesa",
           "periodo": "MXN",
           "incluye": [
-            "1 proyecto",
-            "Funciones esenciales",
-            "Soporte por correo"
+            "Valoración incluida",
+            "Un tratamiento a elegir",
+            "Sin compromiso de continuidad"
           ],
           "insignia": "",
           "precio_anual": ""
         },
         {
           "boton": {
-            "texto": "Elegir Pro",
+            "texto": "Quiero este Plan",
             "enlace": "#contacto"
           },
-          "precio": "$899",
+          "precio": "$2,990",
           "destacado": true,
-          "nombre": "Pro",
-          "descripcion": "Para equipos pequeños que ya están creciendo.",
+          "nombre": "Plan 5 Sesiones",
+          "descripcion": "Para quienes buscan resultados visibles",
           "periodo": "MXN",
           "incluye": [
-            "Proyectos ilimitados",
-            "Todas las funciones",
-            "Integraciones",
-            "Soporte prioritario"
+            "Valoración y seguimiento",
+            "5 sesiones del mismo tratamiento",
+            "Vigencia de 6 meses",
+            "Reagenda sin costo"
           ],
-          "insignia": "Popular",
+          "insignia": "Más solicitado",
           "precio_anual": "19 €"
         },
         {
           "boton": {
-            "texto": "Contactar ventas",
+            "texto": "Habla con nosotros",
             "enlace": "#contacto"
           },
-          "precio": "$2.5K",
+          "precio": "$4,900",
           "destacado": false,
-          "nombre": "Empresa",
-          "descripcion": "Para organizaciones con necesidades a medida.",
+          "nombre": "Plan Integral",
+          "descripcion": "Para combinar tratamientos faciales y corporales.",
           "periodo": "MXN",
           "incluye": [
-            "Todo lo de Pro",
-            "SSO y permisos",
-            "Acuerdo de nivel de servicio"
+            "Todo lo del **Plan 5 sesiones**",
+            "Combina distintos tratamientos",
+            "Agenda prioritaria",
+            "Descuento en productos"
           ],
           "insignia": "",
           "precio_anual": ""
