@@ -340,17 +340,17 @@
     },
     {
       "tipo": "llamada",
-      "titulo": "Una invitación final, directa y breve.",
-      "texto": "Una o dos líneas que resuman por qué dar el paso ahora y qué obtiene el cliente al hacerlo.",
+      "titulo": "Rejuvenece tu piel. Rejuveneces tú.",
+      "texto": "Agenda tu valoración sin costo y te decimos exactamente qué tratamiento necesitas. Sin compromiso.",
       "boton": {
-        "texto": "Empezar gratis",
-        "enlace": "#precios"
-      },
-      "boton2": {
-        "texto": "Hablar con nosotros",
+        "texto": "Agendar mi cita",
         "enlace": "#contacto"
       },
-      "nota": "Una nota breve para resolver la última duda: condiciones, plazos o garantía.",
+      "boton2": {
+        "texto": "Habla con nosotros",
+        "enlace": "#contacto"
+      },
+      "nota": "Valoración sin costo. **Reagenda o cancela hasta 24 horas antes.**",
       "ancla": ""
     },
     {
