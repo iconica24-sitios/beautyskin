@@ -1,7 +1,7 @@
 {
   "seo": {
-    "titulo": "Nombre",
-    "descripcion": "Una frase clara que explica lo que hace tu producto."
+    "titulo": "BeautySkin Spa — Tratamientos faciales y corporales",
+    "descripcion": "Tratamientos faciales, depilación láser y masajes en un espacio pensado para ti. Agenda tu cita."
   },
   "bloques": [
     {
@@ -23,69 +23,71 @@
       "elementos": [
         {
           "icono": "spa",
-          "titulo": "Rápido desde el primer día",
-          "texto": "Configúralo en minutos y empieza a ver resultados sin curva de aprendizaje.",
+          "titulo": "Equipo Profesional",
+          "texto": "Aparatología especializada para cada tipo de piel y necesidad.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
           "icono": "favorite",
-          "titulo": "Seguro por diseño",
-          "texto": "Tus datos viajan cifrados y sólo los ve quien tú decides.",
+          "titulo": "Atención Personalizada",
+          "texto": "Valoramos tu caso antes de recomendarte cualquier tratamiento.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
-          }
+            "texto": "",
+            "url": ""
+          },
+          "posicion": "bajar"
         },
         {
           "icono": "face",
-          "titulo": "Siempre sincronizado",
-          "texto": "Los cambios aparecen al instante en todos tus dispositivos.",
+          "titulo": "Resultados Visibles",
+          "texto": "Protocolos diseñados para que notes la diferencia sesión a sesión.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
           "icono": "Fragrance",
-          "titulo": "Decisiones con datos",
-          "texto": "Reportes claros para saber qué funciona y qué ajustar.",
+          "titulo": "Higiene y Protocolo",
+          "texto": "Material desechable y limpieza rigurosa en cada servicio.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
-          }
+            "texto": "",
+            "url": ""
+          },
+          "posicion": "centrado"
         },
         {
           "icono": "Massage",
-          "titulo": "Soporte humano",
-          "texto": "Personas reales que responden en tu idioma y en horario hábil.",
+          "titulo": "Un Epacio para ti",
+          "texto": "Ambiente tranquilo, sin prisas y sin interrupciones.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         },
         {
-          "icono": "Self_Improvement",
-          "titulo": "A tu medida",
-          "texto": "Ajusta cada detalle para que se adapte a tu forma de trabajar.",
+          "icono": "Schedule",
+          "titulo": "Horarios Flexibles",
+          "texto": "Agenda en línea y elige el día y la hora que te acomoden.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "",
+            "url": ""
           }
         }
       ],
-      "rotulo": "Beneficios",
-      "texto": "Resume en una o dos líneas lo que tienen en común estas ventajas.",
+      "rotulo": "Por qué elegirnos",
+      "texto": "Un espacio pensado para cuidar tu piel, tu descanso y salir de la rutina.",
       "boton": {
-        "texto": "Empezar ahora",
+        "texto": "Agendar mi cita",
         "enlace": "#contacto"
       },
       "oculto": false,
       "ancla": "beneficios",
       "tipo": "iconos",
-      "titulo": "Todo lo que necesitas, en un solo lugar",
+      "titulo": "Todo lo que necesitas, en un solo lugar.",
       "fondo_suave": false
     },
     {
@@ -135,65 +137,68 @@
       "tipo": "funciones_3",
       "oculto": false,
       "rotulo": "Tratamientos",
-      "titulo": "Cada tratamiento, con su imagen.",
-      "texto": "Resume en una o dos líneas lo que muestran las tarjetas.",
+      "titulo": "Tratamientos y Sesiones",
+      "texto": "Agenda por tratamiento o sesión única.",
       "tarjetas": [
         {
           "imagen": "/imagenes/arte_02.webp",
           "categoria": "Tratamiento",
           "titulo": "Facial con Láser",
-          "texto": "Describe el beneficio concreto, o la tecnología detrás.",
+          "texto": "Renueva la textura y el tono de tu piel con tecnología de precisión.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "imagen": "/imagenes/arte_01a.webp",
           "categoria": "Sesión Única",
           "titulo": "Depilación Láser",
-          "texto": "Una o dos líneas bastan para explicarla.",
+          "texto": "Olvídate de la rutina de rasurar. Resultados progresivos y duraderos.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "imagen": "/imagenes/arte_13.webp",
           "categoria": "Tratamiento",
           "titulo": "Limpieza Facial",
-          "texto": "Cierra con lo que reduce el riesgo de empezar.",
+          "texto": "Limpieza profunda que deja tu piel libre de impurezas y lista para respirar.",
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           }
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
           "titulo": "Cavitación",
           "imagen": "/imagenes/arte_06a.webp",
-          "categoria": "Tratamiento"
+          "categoria": "Tratamiento",
+          "texto": "Reduce medidas y mejora el contorno corporal sin procedimientos invasivos."
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
-          "titulo": "Depilación Laser",
+          "titulo": "Depilación Láser Corporal",
           "imagen": "/imagenes/arte_12a.webp",
-          "categoria": "Sesión Única"
+          "categoria": "Sesión Única",
+          "texto": "Cobertura de áreas amplias en menos tiempo y con mayor comodidad."
         },
         {
           "enlace": {
-            "texto": "Saber más",
-            "url": "#"
+            "texto": "Agenda tu cita",
+            "url": "#precios"
           },
           "titulo": "Masajes Relajantes",
           "imagen": "/imagenes/arte_07a.webp",
-          "categoria": "Sesión Única"
+          "categoria": "Sesión Única",
+          "texto": "Libera la tensión acumulada y recupera tu energía en una hora."
         }
       ],
       "fondo_suave": true,
@@ -201,15 +206,15 @@
     },
     {
       "rotulo": "Cómo funciona",
-      "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
+      "texto": "Agenda en línea, te hacemos una valoración sin costo y diseñamos juntos el tratamiento que mejor se ajusta a tu piel y a tus tiempos. Nada de paquetes forzados: avanzamos a tu ritmo.",
       "boton": {
         "texto": "",
         "enlace": ""
       },
       "pasos": [
-        "Primer paso del proceso",
-        "Segundo paso del proceso",
-        "Resultado final"
+        "Agenda tu valoración",
+        "Diseñamos tu tratamiento — Revisamos tu caso y te proponemos un plan.",
+        "Resultados a tu ritmo"
       ],
       "ancla": "producto",
       "boton2": {
@@ -218,23 +223,23 @@
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
-      "titulo": "Explica el flujo principal en una frase.",
+      "titulo": "De la primera cita a los resultados.",
       "imagen_derecha": false,
       "fondo_suave": false
     },
     {
-      "rotulo": "Cómo funciona",
-      "texto": "Describe con más detalle cómo el usuario pasa del problema al resultado. Un párrafo concreto funciona mejor que una lista larga de beneficios.",
+      "rotulo": "Tu primera visita",
+      "texto": "Llegas, te recibimos sin prisas y revisamos contigo lo que platicamos en la valoración. Cada sesión empieza con una revisión breve de cómo respondió tu piel a la anterior, para ajustar lo que haga falta. Nada se hace en automático.",
       "pasos": [
-        "Primer paso del proceso",
-        "Segundo paso del proceso",
-        "Resultado final"
+        "Recepción y revisión",
+        "Tu sesión — El tratamiento, con el tiempo que necesita y sin interrupciones.",
+        "Cuidados en casa"
       ],
       "ancla": "",
       "descripcion": "",
       "imagen": "/imagenes/chicaguapa_2.webp",
       "tipo": "imagen_texto",
-      "titulo": "Explica el flujo principal en una frase.",
+      "titulo": "Qué esperar el día de tu cita",
       "imagen_derecha": true,
       "fondo_suave": false
     },

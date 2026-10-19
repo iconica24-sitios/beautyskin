@@ -17,13 +17,13 @@
       "enlace": "#precios"
     },
     {
-      "texto": "Contacto",
+      "texto": "Agenda tu Cita",
       "enlace": "#contacto"
     }
   ],
   "boton": {
-    "texto": "",
-    "enlace": "#contacto"
+    "texto": "Comprar este sitio",
+    "enlace": "https://grfkweb.com/index.html#precios"
   },
   "pie": {
     "redes": [
