@@ -26,7 +26,7 @@
 .imagen-texto__texto { margin: 28px 0 0; font-size: 18px; line-height: 1.65; color: var(--gris); text-wrap: pretty; }
 .imagen-texto__pasos { margin-top: 40px; display: flex; flex-direction: column; border-top: 1px solid var(--linea-fuerte); counter-reset: paso; }
 .imagen-texto__paso { padding: 18px 0; border-bottom: 1px solid var(--linea-fuerte); display: flex; gap: 20px; font-size: 16px; font-weight: 500; }
-.imagen-texto__paso::before { counter-increment: paso; content: counter(paso); font-family: var(--mono); font-size: 13px; color: var(--gris-claro); padding-top: 3px; }
+.imagen-texto__paso::before { counter-increment: paso; content: counter(paso); font-family: var(--mono); font-size: 13px; color: var(--gris-claro); }
 /* Botones opcionales al final del texto: en línea a la izquierda y del mismo ancho (el del texto más largo);
    en celular, uno sobre otro a todo el ancho */
 .imagen-texto__botones { margin-top: 40px; display: inline-grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 12px; max-width: 100%; }
