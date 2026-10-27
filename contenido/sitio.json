@@ -1,5 +1,5 @@
 {
-  "nombre": "beautyskin.spa",
+  "nombre": "Demo Clinica",
   "marca": {
     "acento": "#1f5fa8"
   },
@@ -40,6 +40,6 @@
         "url": "https://www.linkedin.com/"
       }
     ],
-    "legal": "© 2026 La presente página es sólo un demo."
+    "legal": "© 2026 - GRAPHICAWEB - Todos los derechos reservados"
   }
 }
